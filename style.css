@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "josefin sans", sans-serif;
+}
+
+html::-webkit-scrollbar-track{
+   background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+   background: #DC143C;
+   border-radius: 10px;
+}
+html::-webkit-scrollbar{
+width: 10px;
+}
+/* navbar start */
+#navbar {
+  padding: 0px 9.5%;
+}
+#logo img {
+  width: 190px;
+  margin-top: 3px;
+}
+
+.nav-item .nav-link {
+  color: black;
+  font-weight: 550;
+  transition: 0.4s all;
+}
+
+.nav-item .nav-link:hover {
+  color: crimson;
+}
+
+/* home start */
+
+.home {
+  display: flex;
+  padding: 5px 11% 80px;
+}
+
+.home .img {
+  flex: 1 1 300px;
+}
+
+.home .img img {
+  width: 100%;
+}
+.home-content {
+  flex: 1 1 400px;
+}
+.home-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* top section */
+
+.top-section {
+  padding: 10px 11% 100px;
+}
+
+.top-section .row .card img {
+  width: 200px;
+}
+.top-section .card-body h1 {
+  font-size: 25 px;
+}
+
+/* menu section */
+
+.menu {
+  padding: 100px 11% 100px;
+}
+
+.order textarea {
+  resize: none;
+}
+
+/* review section */
+
+.review h5 img {
+  width: 60px;
+  border-radius: 10px;
+}
+/* contact section */
+.contact textarea {
+  resize: none;
+}
+/* footer */
+footer {
+  padding: 15px 11% 35px;
+}
+.f-logo img {
+  width: 250px;
+}
+.social i {
+  padding: 10px;
+}
+.social i:hover {
+  background: #dc143c;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s all;
+  color: #ffffff;
+}
